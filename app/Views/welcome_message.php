@@ -73,6 +73,8 @@ if (isset($session))
     </div>
     <div class="row">
         <img src="<?php base_url() ?>images/Cat.jpg" alt="Michi">
+
+        Felicidades estamos en github
     </div>
 </div>
 
