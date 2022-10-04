@@ -1,0 +1,27 @@
+CRITICAL - 2022-08-27 00:19:31 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\miProyecto\app\Controllers\Usuario.php on line 16
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Usuario.php(16): view('layout/footer', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Usuario->crearUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 00:31:46 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\Usuario\crearUsuario.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Usuario/crearUsuario', [], true)
+ 3 APPPATH\Controllers\Usuario.php(15): view('Usuario/crearUsuario')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Usuario->crearUsuario()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 00:48:53 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Usuario\crearUsuario.php on line 19.
+ 1 APPPATH\Views\Usuario\crearUsuario.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\Usuario\\crearUsuario.php', 19, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuario\\crearUsuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Usuario/crearUsuario', [], true)
+ 5 APPPATH\Controllers\Usuario.php(20): view('Usuario/crearUsuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Usuario->crearUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

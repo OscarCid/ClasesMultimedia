@@ -1,0 +1,123 @@
+CRITICAL - 2022-08-25 22:59:21 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\miProyecto\app\Controllers\Inicio.php on line 37
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Inicio.php(37): view('plantilla/header', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 22:59:58 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\miProyecto\app\Controllers\Inicio.php on line 38
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Inicio.php(38): view('plantilla/header', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 22:59:59 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\miProyecto\app\Controllers\Inicio.php on line 38
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Inicio.php(38): view('plantilla/header', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 22:59:59 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\miProyecto\app\Controllers\Inicio.php on line 38
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Inicio.php(38): view('plantilla/header', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 22:59:59 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\miProyecto\app\Controllers\Inicio.php on line 38
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Inicio.php(38): view('plantilla/header', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:00:00 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\miProyecto\app\Controllers\Inicio.php on line 38
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Inicio.php(38): view('plantilla/header', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:00:21 --> Invalid file: plantilla/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/header.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('plantilla/header', [], true)
+ 3 APPPATH\Controllers\Inicio.php(38): view('plantilla/header')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:00:22 --> Invalid file: plantilla/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/header.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('plantilla/header', [], true)
+ 3 APPPATH\Controllers\Inicio.php(38): view('plantilla/header')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:00:23 --> Invalid file: plantilla/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/header.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('plantilla/header', [], true)
+ 3 APPPATH\Controllers\Inicio.php(38): view('plantilla/header')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:00:23 --> Invalid file: plantilla/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/header.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('plantilla/header', [], true)
+ 3 APPPATH\Controllers\Inicio.php(38): view('plantilla/header')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:00:23 --> Invalid file: plantilla/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/header.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('plantilla/header', [], true)
+ 3 APPPATH\Controllers\Inicio.php(38): view('plantilla/header')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:00:24 --> Invalid file: plantilla/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/header.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('plantilla/header', [], true)
+ 3 APPPATH\Controllers\Inicio.php(38): view('plantilla/header')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:00:24 --> Invalid file: plantilla/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/header.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('plantilla/header', [], true)
+ 3 APPPATH\Controllers\Inicio.php(38): view('plantilla/header')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:00:24 --> Invalid file: plantilla/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/header.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('plantilla/header', [], true)
+ 3 APPPATH\Controllers\Inicio.php(38): view('plantilla/header')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 23:00:24 --> Invalid file: plantilla/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantilla/header.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('plantilla/header', [], true)
+ 3 APPPATH\Controllers\Inicio.php(38): view('plantilla/header')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Inicio->nuevoInicio()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
