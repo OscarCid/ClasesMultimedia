@@ -75,6 +75,7 @@ if (isset($session))
         <img src="<?php base_url() ?>images/Cat.jpg" alt="Michi">
 
         Felicidades estamos en github
+        Sí. Funcionó.
     </div>
 </div>
 
