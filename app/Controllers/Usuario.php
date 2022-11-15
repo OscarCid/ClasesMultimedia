@@ -43,17 +43,39 @@ class Usuario extends BaseController
             'nombres' => $this->request->getPost('nombres'),
             'aPaterno' => $this->request->getPost('aPaterno'),
             'aMaterno' => $this->request->getPost('aMaterno'),
-            'email' => $this->request->getPost('email')
+            'email' => $this->request->getPost('email'),
+            'aMaterno' => $this->request->getPost('aMaterno'),
+            'password' => password_hash("12345", PASSWORD_DEFAULT)
         );
 
         if($tablaUsuarios->insert($data)===false)
         {
             var_dump($tablaUsuarios->errors());
         }
+        else
+        {
+            $email = \Config\Services::email();
+            $email->setTo("oscar.cid@upla.cl");
+            $email->setFrom('oscar.cid@upla.cl', 'Holi');
+            
+            $email->setSubject("Prueba de mensaje");
+            $email->setMessage("Espero por fin pueda mandar un correo!");
+            if ($email->send()) 
+            {
+                echo 'Email successfully sent';
+            } 
+            else 
+            {
+                $data = $email->printDebugger(['headers']);
+                print_r($data);
+            }
+
+        }
     }
 
     public function crearUsuarioAjax()
     {
+
         $tablaTipoUsuarios = new TipoUsuarioModel($db);
         $tablaTipoUsuarios = $tablaTipoUsuarios->findAll();
         $data['listaTipoUsuario'] = $tablaTipoUsuarios;
@@ -172,6 +194,7 @@ class Usuario extends BaseController
 
     public function insertaNuevoUsuarioAjax()
     {
+        //$this->load->library('email');
         $tablaUsuarios = new UsuarioModel($db);
 
         $data=array(

@@ -59,10 +59,12 @@ if (isset($session))
                             <?php
                                 if($estadoLog) 
                                 { 
-                                    echo "<td>";
-                                    echo "<a type='button' data-bs-toggle='tooltip' data-bs-title='Editar' class='btn btn-info btn-sm'><i class='bi bi-pencil-square'></i></a>";
-                                    echo "<a type='button' data-bs-toggle='tooltip' data-bs-title='Eliminar' class='btn btn-danger btn-sm'><i class='bi bi-trash3-fill'></i></a>";
-                                    echo "</td>"; 
+                                    ?>
+                                    <td>
+                                    <a type='button' data-bs-toggle='tooltip' data-bs-title='Editar' href='<?php echo base_url('Usuario/editarUsuario/'.$item['id_usuario']); ?>' class='btn btn-info btn-sm'><i class='bi bi-pencil-square'></i></a>
+                                    <a type='button' data-bs-toggle='tooltip' data-bs-title='Eliminar' href='<?php echo base_url('Usuario/eliminarUsuario/'.$item['id_usuario']); ?>' class='btn btn-danger btn-sm'><i class='bi bi-trash3-fill'></i></a>
+                                    </td>
+                                    <?php
                                 }
                             ?>
                         </tr>

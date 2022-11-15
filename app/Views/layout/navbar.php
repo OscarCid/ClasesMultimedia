@@ -35,7 +35,7 @@
             </a>
 
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="https://google.cl">Crear Usuario</a></li>
+              <li><a class="dropdown-item" href="<?php echo base_url('Usuario/crearUsuario'); ?>">Crear Usuario</a></li>
               <li><a class="dropdown-item" href="<?php echo base_url('Usuario/crearUsuarioAjax'); ?>">Crear Usuario Ajax</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
