@@ -11,6 +11,7 @@ if (isset($session))
     }
 }
 ?>
+
 <div class="container">
 <?php // print_r($listaUsuarios); ?>
     <div class="alert alert-success" role="alert">
@@ -78,6 +79,10 @@ if (isset($session))
 
         Felicidades estamos en github
         Sí. Funcionó.
+
+        <div class="qrcode" value="https://acceso.upla.cl/sinte" display-label="true" label-position="top" label-font-size="20">
+            <br>
+            <br>
     </div>
 </div>
 
